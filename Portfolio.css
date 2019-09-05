@@ -1,0 +1,36 @@
+body {
+              
+              background-repeat: no-repeat;
+              background-position: top center;
+              background-size: cover;
+              background-attachment: fixed;
+              
+              }
+
+body#contact {
+    background-image: url(edoport2.jpg);
+}
+body#home {
+    background-image: url(edoport.jpg);
+}
+    
+    nav {
+    background-color: lightslategrey;
+    text-align: center;
+}
+        nav a {
+    color: black;
+    font-size: 24px;
+    font-family: sans-serif;
+            flow-from: inherit;
+    text-decoration: none;
+            
+    display: inline-block;
+    padding: 10px; 
+    margin:auto;      
+          }
+          
+    nav a:hover,.current {
+    background-color: gold;
+    color: black;
+    }
